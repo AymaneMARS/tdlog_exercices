@@ -28,3 +28,7 @@ fixed_tests_False = (
     ( "spam",    "eggs"  )
 )
 """
+class Solution:
+    @staticmethod
+    def solution(string, ending):
+        return string.endswith(ending)
